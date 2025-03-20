@@ -21,6 +21,7 @@ public class Exercicio {
         carroA.marca = "Mercedes";
         carroA.modelo = "AMG A 35 4MATIC";
         carroA.combustivel = "Diesel";
+        
        
         System.out.println(carroA.combustivel+"\n"+carroA.cor+"\n"+carroA.marca+"\n"+carroA.modelo);
         
@@ -30,6 +31,11 @@ public class Exercicio {
         carroB.cor = "Preto";
         carroB.marca = "Honda";
         carroB.modelo = "Civic";
+        
+        carroB.velocidade = 15;
+        carroB.marcha = 40;
+        carroB.Frear();
+        
         System.out.println(carroB.combustivel+"\n"+carroB.cor+"\n"+carroB.marca+"\n"+carroB.modelo);
     }
     

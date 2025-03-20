@@ -13,6 +13,20 @@ public class Carro {
     String modelo;
     String cor;
     String combustivel;
+    int portas;
+    int marcha;
+    double velocidade;
     
+    public void Acelerar(){
+        velocidade += marcha * 20;
+        System.out.println("velocidade" + velocidade);
+    }
+    public void Frear(){
+        velocidade = marcha - 5;
+        System.out.println(velocidade);
+    }
+    public void Marcha (){
+        
+    }
    
 }
